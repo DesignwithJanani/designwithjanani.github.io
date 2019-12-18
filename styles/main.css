@@ -1,0 +1,58 @@
+body {
+  background: #ffffff;
+  display: block;
+  height: 100vh;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #404041;
+  pointer-events: none; }
+
+h1, svg {
+  position: absolute;
+  width: 250px;
+  top: 40%;
+  left: 50%; }
+
+h1 {
+  margin: 290px 0 0 -123px;
+  color: #00dec8;
+  height: 287.5px;
+  font-family: sans-serif;
+  font-size: 30px;
+  letter-spacing: 6px;
+  line-height: 287.5px;
+  text-align: center;
+  z-index: 100; }
+
+h2 {
+margin: 80px 0 0 0px;
+  color: #00dec8;
+  font-family: sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  z-index: 100; }
+
+h3 {
+margin: 20px 0 0 0;
+  color: #bcbcbc;
+  font-family: sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: center; }
+
+
+
+svg {
+  margin: -75px 0 0 -125px; }
+  svg #shape polygon {
+    fill: #00dec8;
+    opacity: 0;
+    -webkit-transition: all 1s ease;
+            transition: all 0.3s ease; }
+    svg #shape polygon.active {
+      opacity: 1; }
+  svg > polygon {
+    fill: #d7d7d9; }
